@@ -1,5 +1,6 @@
 import 'package:adventure_travell_app/widgets/app_text.dart';
 import 'package:adventure_travell_app/widgets/large_text.dart';
+import 'package:adventure_travell_app/widgets/responsive_button.dart';
 import 'package:flutter/material.dart';
 
 import '../list_of_text.dart';
@@ -47,6 +48,10 @@ class _WelcomePageState extends State<WelcomePage> {
                               text: tinyText[index],
                               color: Colors.grey.shade600,
                             ),
+                          ),
+                          const SizedBox(height: 30),
+                          ResponsiveButton(
+                            width: 126,
                           ),
                         ],
                       ),
